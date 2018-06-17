@@ -21,27 +21,41 @@ Architectural patterns are similar to software design pattern but have a broader
 
 ### Why Software Architecture Matters ?
 
-- A basis for communication: Software architecture is a sort of plan of the system and is primordial for the understanding, the negotiation and the communication between all the stakeholders (user side, customer, management, etc.). In fact, it makes it easier to understand the whole system and therefore makes the decisions process more efficient.
-- The earliest decisions: the first decisions taken are at this stage. Those early decisions have a huge importance on the rest of the project and become very difficult to change the more we advance in the process  
-- Transferability of the model: software architecture defines the model of the software and how it will function. Having it makes it possible to reuse this model for other softwares; code can be reused as well as the requirements. All the experience we get while doing that architecture is also transferred. This mean that we know and can reuse the consequences of the early decisions we took on the first place.
+---
+
+#### A basis for communication
+
+Software architecture is a sort of plan of the system and is primordial for the understanding, the negotiation and the communication between all the stakeholders (user side, customer, management, etc.). In fact, it makes it easier to understand the whole system and therefore makes the decisions process more efficient.
+
+---
+
+#### The earliest decisions
+
+The first decisions taken are at this stage. Those early decisions have a huge importance on the rest of the project and become very difficult to change the more we advance in the process  
+
+---
+
+#### Transferability of the model
+
+Software architecture defines the model of the software and how it will function. Having it makes it possible to reuse this model for other softwares; code can be reused as well as the requirements. All the experience we get while doing that architecture is also transferred. This mean that we know and can reuse the consequences of the early decisions we took on the first place.
 
 ---
 
 ### Keypoints
 
-The Architecture Defines Constraints on Implementation
-The Architecture Dictates Organizational Structure
-The Architecture Inhibits or Enables a System's Quality Attributes
-Predicting System Qualities by Studying the Architecture
-The Architecture Makes It Easier to Reason about and Manage Change
-The Architecture Helps in Evolutionary Prototyping
-The Architecture Enables More Accurate Cost and Schedule Estimates
-ARCHITECTURE AS A TRANSFERABLE, RE-USABLE MODEL
-Software Product Lines Share a Common Architecture
-Systems Can Be Built Using Large, Externally Developed Elements
-Less Is More: It Pays to Restrict the Vocabulary of Design Alternatives
-An Architecture Permits Template-Based Development
-An Architecture Can Be the Basis for Training
+- The Architecture Defines Constraints on Implementation |
+- The Architecture Dictates Organizational Structure |
+- The Architecture Inhibits or Enables a System's Quality Attributes |
+- Predicting System Qualities by Studying the Architecture |
+- The Architecture Makes It Easier to Reason about and Manage Change |
+- The Architecture Helps in Evolutionary Prototyping |
+- The Architecture Enables More Accurate Cost and Schedule Estimates |
+- Architecute as a Transferable, Re-usable Model |
+- Software Product Lines Share a Common Architecture |
+- Systems Can Be Built Using Large, Externally Developed Elements |
+- Less Is More: It Pays to Restrict the Vocabulary of Design Alternatives |
+- An Architecture Permits Template-Based Development |
+- An Architecture Can Be the Basis for Training |
 
 ---
 
