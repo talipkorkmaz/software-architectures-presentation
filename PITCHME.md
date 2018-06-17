@@ -50,6 +50,9 @@ Software architecture defines the model of the software and how it will function
 - The Architecture Makes It Easier to Reason about and Manage Change |
 - The Architecture Helps in Evolutionary Prototyping |
 - The Architecture Enables More Accurate Cost and Schedule Estimates |
+
+---
+
 - Architecute as a Transferable, Re-usable Model |
 - Software Product Lines Share a Common Architecture |
 - Systems Can Be Built Using Large, Externally Developed Elements |
