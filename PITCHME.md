@@ -1,10 +1,10 @@
-# Software Architecute Patterns
+# Software Architecture Patterns
 
 Talip Korkmaz | NETAŞ
 
 ---
 
-### What we gonna see
+### What we gonna see ?
 
 - What is Software Architecture and why it is important ? |
 - Software Architecture Patterns With Use Cases |
@@ -47,14 +47,17 @@ Software architecture defines the model of the software and how it will function
 - The Architecture Dictates Organizational Structure |
 - The Architecture Inhibits or Enables a System's Quality Attributes |
 - Predicting System Qualities by Studying the Architecture |
-- The Architecture Makes It Easier to Reason about and Manage Change |
-- The Architecture Helps in Evolutionary Prototyping |
-- The Architecture Enables More Accurate Cost and Schedule Estimates |
 
 ---
 
+- The Architecture Makes It Easier to Reason about and Manage Change |
+- The Architecture Helps in Evolutionary Prototyping |
+- The Architecture Enables More Accurate Cost and Schedule Estimates |
 - Architecute as a Transferable, Re-usable Model |
 - Software Product Lines Share a Common Architecture |
+
+---
+
 - Systems Can Be Built Using Large, Externally Developed Elements |
 - Less Is More: It Pays to Restrict the Vocabulary of Design Alternatives |
 - An Architecture Permits Template-Based Development |
@@ -64,16 +67,21 @@ Software architecture defines the model of the software and how it will function
 
 ### Common Software Architectures
 
-- Layered pattern
-- Client-server pattern
-- Master-slave pattern
-- Pipe-filter pattern
-- Broker pattern
-- Peer-to-peer pattern
-- Event-bus pattern
-- Model-view-controller pattern
-- Blackboard pattern
-- Interpreter pattern
+- 1. Layered pattern
+- 2. Client-server pattern
+- 3. Master-slave pattern
+- 4. Pipe-filter pattern
+- 5. Broker pattern
+
+---
+
+### Common Software Architectures
+
+- 6. Peer-to-peer pattern
+- 7. Event-bus pattern
+- 8. Model-view-controller pattern
+- 9. Blackboard pattern
+- 10. Interpreter pattern
 
 ---
 
