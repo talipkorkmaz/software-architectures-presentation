@@ -1,10 +1,8 @@
 ---?image=assets/image/Software Architecture_en.png
 
-# Brick
+# Talip Korkmaz | NETAŞ
 
 ### Software Architectural Patterns
-
----?image=assets/image/patrick-tomasso.jpg
 
 ## What we gonna see ?
 
@@ -12,9 +10,7 @@
 - Software Architectures |
 - Use Cases |
 
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
+<br><br>
 
 ## Template Features
 
