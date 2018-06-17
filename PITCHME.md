@@ -67,21 +67,21 @@ Software architecture defines the model of the software and how it will function
 
 ### Common Software Architectures
 
-- 1. Layered pattern
-- 2. Client-server pattern
-- 3. Master-slave pattern
-- 4. Pipe-filter pattern
-- 5. Broker pattern
+- Layered pattern
+- Client-server pattern
+- Master-slave pattern
+- Pipe-filter pattern
+- Broker pattern
 
 ---
 
 ### Common Software Architectures
 
-- 6. Peer-to-peer pattern
-- 7. Event-bus pattern
-- 8. Model-view-controller pattern
-- 9. Blackboard pattern
-- 10. Interpreter pattern
+- Peer-to-peer pattern
+- Event-bus pattern
+- Model-view-controller pattern
+- Blackboard pattern
+- Interpreter pattern
 
 ---
 
