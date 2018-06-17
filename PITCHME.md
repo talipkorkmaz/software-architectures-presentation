@@ -1,16 +1,20 @@
----?image=assets/image/Software Architecture_en.png
+# Software Architecute 
 
-# Talip Korkmaz | NETAŞ
+Talip Korkmaz | NETAŞ
 
-### Software Architectural Patterns
+---
 
-## What we gonna see ?
+### What we gonna see
 
 - Importance of Software Architecture |
 - Software Architectures |
 - Use Cases |
 
-<br><br>
+---
+
+![Software Architecture](https://mm-software.com/static/Software%20Architecture_en.png)
+
+---
 
 ## Template Features
 
