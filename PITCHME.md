@@ -1,4 +1,4 @@
----?image=assets/image/architecutures.png
+---?image=assets/image/Software Architecture_en.png
 
 # Brick
 
@@ -6,15 +6,15 @@
 
 ---?image=assets/image/patrick-tomasso.jpg
 
-## Tips!
+## What we gonna see ?
+
+- Importance of Software Architecture |
+- Software Architectures |
+- Use Cases |
 
 <br>
 
 @fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
-
----?image=assets/image/daniel-ghio.jpg
 
 ## Template Features
 
