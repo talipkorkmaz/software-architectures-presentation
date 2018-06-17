@@ -1,4 +1,4 @@
-# Software Architecute 
+# Software Architecute Patterns
 
 Talip Korkmaz | NETAŞ
 
@@ -6,9 +6,57 @@ Talip Korkmaz | NETAŞ
 
 ### What we gonna see
 
-- Importance of Software Architecture |
-- Software Architectures |
+- What is Software Architecture and why it is important ? |
+- Software Architecture Patterns With Use Cases |
 - Use Cases |
+
+---
+
+Wikipedia : 
+
+"An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. 
+Architectural patterns are similar to software design pattern but have a broader scope"
+
+---
+
+### Why Software Architecture Matters ?
+
+- A basis for communication: Software architecture is a sort of plan of the system and is primordial for the understanding, the negotiation and the communication between all the stakeholders (user side, customer, management, etc.). In fact, it makes it easier to understand the whole system and therefore makes the decisions process more efficient.
+- The earliest decisions: the first decisions taken are at this stage. Those early decisions have a huge importance on the rest of the project and become very difficult to change the more we advance in the process  
+- Transferability of the model: software architecture defines the model of the software and how it will function. Having it makes it possible to reuse this model for other softwares; code can be reused as well as the requirements. All the experience we get while doing that architecture is also transferred. This mean that we know and can reuse the consequences of the early decisions we took on the first place.
+
+---
+
+### Keypoints
+
+The Architecture Defines Constraints on Implementation
+The Architecture Dictates Organizational Structure
+The Architecture Inhibits or Enables a System's Quality Attributes
+Predicting System Qualities by Studying the Architecture
+The Architecture Makes It Easier to Reason about and Manage Change
+The Architecture Helps in Evolutionary Prototyping
+The Architecture Enables More Accurate Cost and Schedule Estimates
+ARCHITECTURE AS A TRANSFERABLE, RE-USABLE MODEL
+Software Product Lines Share a Common Architecture
+Systems Can Be Built Using Large, Externally Developed Elements
+Less Is More: It Pays to Restrict the Vocabulary of Design Alternatives
+An Architecture Permits Template-Based Development
+An Architecture Can Be the Basis for Training
+
+---
+
+### Common Software Architectures
+
+- Layered pattern
+- Client-server pattern
+- Master-slave pattern
+- Pipe-filter pattern
+- Broker pattern
+- Peer-to-peer pattern
+- Event-bus pattern
+- Model-view-controller pattern
+- Blackboard pattern
+- Interpreter pattern
 
 ---
 
@@ -16,111 +64,56 @@ Talip Korkmaz | NETAŞ
 
 ---
 
-## Template Features
+### Layered pattern
 
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
-
-<br><br>
-
----?code=sample/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
-
----?image=assets/image/simon-matzinger.jpg
-
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
-
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
-
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
-
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
-
----?image=assets/image/daniel-ghio.jpg
-
-## Template Help
-
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting), [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents), and [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
-
-<br><br>
+- Dispatcher: Manages Data Flow
+- Stores: Handle State & Logic
+- Views: Render Data via React
 
 ---
 
-## Go GitPitch Pro!
+### Client-server pattern
 
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
+- Dispatcher: Manages Data Flow
 
----?image=assets/image/daniel-ghio.jpg
+---
 
-### Questions?
+### Master-slave pattern
 
-<br>
+- Dispatcher: Manages Data Flow
 
-@fa[twitter gp-contact](@gitpitch)
+---
 
-@fa[github gp-contact](gitpitch)
+### Pipe-filter pattern
 
-@fa[medium gp-contact](@gitpitch)
+- Dispatcher: Manages Data Flow
 
----?image=assets/image/gitpitch-audience.jpg
+---
 
-@title[Download this Template!]
+### Broker pattern
 
-### <span class="white">Get your presentation started!</span>
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/brick)
+- Dispatcher: Manages Data Flow
 
+---
+
+### Peer-to-peer pattern
+
+- Dispatcher: Manages Data Flow
+
+---
+
+### Event-bus pattern
+
+- Dispatcher: Manages Data Flow
+
+---
+
+### Model-view-controller pattern
+
+- Dispatcher: Manages Data Flow
+
+---
+
+### Blackboard pattern
+
+- Dispatcher: Manages Data Flow
