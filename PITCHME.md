@@ -1,10 +1,10 @@
----?image=assets/image/patrick-tomasso.jpg
+---?image=assets/image/architecutures.png
 
 # Brick
 
 ### Software Architectural Patterns
 
----?image=assets/image/architecutures.png
+---?image=assets/image/patrick-tomasso.jpg
 
 ## Tips!
 
