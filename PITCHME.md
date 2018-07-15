@@ -41,6 +41,23 @@ Software architecture defines the model of the software and how it will function
 
 ---
 
+What is a good software architecture?
+ 
+It’s very difficult to determine what is a good software architecture and there is no real right answer to this question. 
+What we can say is that it makes products cheaper to develop and to maintain. 
+In general, the facets of a good architecture are all interrelated and depend on each other. Like what?
+
+The software architecture should be strong and easy to maintain when we find bugs
+Should have domain concepts that nearly all the members will understand
+It should be flexible and extendible, usable on the long term
+Make it possible to adapt to requirements
+Scalability, scalability & scalability: high capacity
+You shouldn’t find repetition in the code
+Refactoring should be easy
+Should respond positively to change, when adding features, performance should not decrease
+
+--- 
+
 ### Keypoints
 
 - The Architecture Defines Constraints on Implementation |
@@ -91,9 +108,20 @@ Software architecture defines the model of the software and how it will function
 
 ### Layered pattern
 
-- Dispatcher: Manages Data Flow
-- Stores: Handle State & Logic
-- Views: Render Data via React
+Each layer provide services to the next higher layer
+Layers are : 
+
+- Presentation layer (also known as UI layer) @Controller
+- Application layer (also known as service layer) @Service
+- Business logic layer (also known as domain layer) @Entity - DDD
+- Data access layer (also known as persistence layer) @Repository
+
+### Usage
+
+General desktop applications.
+E commerce web applications.
+
+![Layered Pattern](https://cdn-images-1.medium.com/max/1600/1*jMWk_JqqyyloVPhTs_Zd1A.png)
 
 ---
 
